@@ -9,14 +9,12 @@
     margin-right: 10px;
 }
 
-.spanstyle {
-    font-size: 40px;
-    font-weight: bold;
+.imagespan {
+    padding-top: 10px;
 }
 
 
 .descriptionstyle {
     display: block;
     line-height: 1.6;
-    padding-bottom: 5px;
 }

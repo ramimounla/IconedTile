@@ -43,9 +43,9 @@ export class IconedTile implements ComponentFramework.StandardControl<IInputs, I
 		localDiv.appendChild(spanDescription);
 
 		let image = document.createElement("img");
+		image.className = 'imagespan';
 		image.src = imageUrl;
 		localDiv.appendChild(image);
-
 
 		if (((tabName).trim().length > 0)) {
 			localDiv.style.cursor = "pointer";

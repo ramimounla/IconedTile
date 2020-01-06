@@ -1,12 +1,12 @@
 .divstyle {
-    height: 80px;
-    width: 100px;
+    height: 75px;
+    width: 80px;
     font-family: 'Open Sans', "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     color: white;
     text-align: center; 
     overflow: hidden;   
     float: left;
-    margin-right: 10px;
+    margin-right: 3px;
 }
 
 .imagespan {
@@ -16,5 +16,6 @@
 
 .descriptionstyle {
     display: block;
+    font-size: 13px;
     line-height: 1.6;
 }

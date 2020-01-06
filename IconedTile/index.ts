@@ -57,6 +57,7 @@ export class IconedTile implements ComponentFramework.StandardControl<IInputs, I
 
 
 	private navigateToTab(tabName: string): void {
+		eval("Xrm.Page.ui.tabs.get(tabName).setVisible(true)");
 		eval("Xrm.Page.ui.tabs.get(tabName).setFocus()");
 	}
 
